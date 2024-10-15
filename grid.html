@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Grid Practice
+    </title>
+  </head>
+  <body>
+
+    <P>
+      <h5>GRIDS ARE MORE RIGID THAN FLEXBOXES</h5>
+        <ul>
+          <li>Define width and quantity of grid items in the grid item template in the parent container</li>
+          <li>Reordering items does not change the structure</li>
+        </ul>
+    </P>
+    
+    <div style="display: grid; grid-template-columns: 100px 200px; ">
+      <div style="background-color: lightblue;">Div 1<p>100px</p></div>
+      <div style="background-color: lightpink;">Div 2<p>200px</p></div>      
+    </div>
+       
+    <div style="display: grid; grid-template-columns: 100px 100px 200px; margin-top: 30px;">
+      <div style="background-color: lightblue;">Div 1<p>100px</p></div>
+      <div style="background-color: lightpink;">Div 2<p>100px</p></div>
+      <div style="background-color: lightblue;">Div 3<p>200px</p></div>
+      <div style="background-color: lightpink;">Div 4<p>100px</p></div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 100px 1fr; margin-top: 30px;">
+      <div style="background-color: lightblue;">Div 1<p>100px</p></div>
+      <div style="background-color: lightpink;">Div 2<p>1fr</p></div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 100px 1fr 2fr; margin-top: 30px;">
+      <div style="background-color: lightblue;">Div 1<p>100px</p></div>
+      <div style="background-color: lightpink;">Div 2<p>1fr</p></div>
+      <div style="background-color: lightblue;">Div 3<p>2fr</p></div>
+    </div> 
+
+  </body>
+</html>

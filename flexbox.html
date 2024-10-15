@@ -6,33 +6,81 @@
         </title>
 
     </head>
-    <body style="padding-bottom: 1000px;">
-        <div style="margin-top: 30px; display: flex; flex-direction: row;">
-            <div style="background-color: lightblue; width: 100px;">div 1 text</div>
-            <div style="background-color: lightpink; width: 100px;">"div1 text <p>text</p></div>
+    <body style="padding-bottom: 50px;">
+        <P>
+            <h5>FLEXBOXES ARE MORE... UH... FLEXIBLE... THAN GRIDS</h5>
+              <ul>
+                <li>Containers adjust to accomodate the number and style of child elements</li>
+                <li>Reordering items <i>does</i> change the structure</li>
+
+              </ul>
+        </P>
+
+        <div style=
+        "display: flex;
+        flex-direction: row;
+        margin-top: 30px;">
+            <div style="background-color: lightblue; width: 100px;">Div 1<p>100px</p></div>
+            <div style="background-color: lightpink; width: 200px;">Div 2<p>200px</p></div>
         </div>
 
-        <div style="margin-top: 30px; display: flex; flex-direction: row;">
-            <div style="background-color: lightblue; width: 100px;">100px text</div>
-            <div style="background-color: lightpink; width: 100px;">100px</div>
+        <div style=
+        "display: flex;
+        flex-direction: row;
+        margin-top: 30px;">
+            <div style="background-color: lightpink; width: 200px;">Div 2<p>200px</p></div>
+            <div style="background-color: lightblue; width: 100px;">Div 1<p>100px</p></div>            
         </div>
 
-        <div style="margin-top: 30px; display: flex; flex-direction: row;">           
-            <div style="background-color: lightblue; 100px;">100px</div>
-            <div style="background-color: lightpink; width: 100px;">100px text</div>
-            <div style="background-color: lightblue; width: 100px;">100px</div>
+        <div style=
+        "display: flex;
+        flex-direction: row;
+        margin-top: 30px;">
+            <div style="background-color: lightblue; width: 100px;">Div 1<p>100px</p></div>
+            <div style="background-color: lightpink; width: 200px;">Div 2<p>200px</p></div>
+            <div style="background-color: lightblue; flex: 1;">Div 3<p>Flex 1</p></div>
         </div>
 
-        <div style="margin-top: 30px; height: 70px; justify-content: space-between; border-style: solid; border-color: grey; border-width: 1px; display: flex; flex-direction: row;">           
-            <div style="background-color: lightblue; width: 100px;">100px</div>
-            <div style="background-color: lightpink; width: 100px;">100px</div>
-            <div style="background-color: lightblue; width: 100px;">100px</div>
+        <div style=
+        "display: flex;
+        flex-direction: row;
+        margin-top: 30px;">           
+            <div style="background-color: lightblue; width: 100px;">Div 1<p>100px</p></div>
+            <div style="background-color: lightpink; flex: 1">Div 2<p>Flex 1</p></div>
+            <div style="background-color: lightblue; flex: 2;">Div 3<p>Flex 2</p></div>
+            <div style="background-color: lightpink;">Div 4<p>Adjusts To Content</p></div>
+
+            
+        </div>
+
+        <div style=
+        "display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        height: 70px;
+        justify-content: space-between;
+        border-style: solid;
+        border-color: grey;
+        border-width: 1px;
+        ">           
+            <div style="background-color: lightblue; width: 100px;">Div 1<p>100px</p></div>
+            <div style="background-color: lightpink; width: 100px;">Div 2<p>100px</div>
+            <div style="background-color: lightblue; width: 100px;">Div 3<p>100px</div>
         </div>   
 
-        <div style="margin-top: 30px; height: 70px; justify-content: space-between; align-items: center; border-style: solid; border-color: grey; border-width: 1px; display: flex; flex-direction: row;">           
-            <div style="background-color: lightblue; width: 100px;">100px</div>
-            <div style="background-color: lightpink; width: 100px;">100px</div>
-            <div style="background-color: lightblue; width: 100px;">100px</div>
+        <div style=
+        "display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        height: 70px;
+        justify-content: space-between;
+        align-items: center;
+        border-style: solid;
+        border-color: grey;
+        border-width: 1px;">           
+            <div style="background-color: lightblue; width: 100px;">Div 1<p>100px</p></div>
+            <div style="background-color: lightpink; width: 100px;">Div 2<p>100px</p></div>
+            <div style="background-color: lightblue; width: 100px;">Div 3<p>100px</p></div>
         </div>        
 
     </body>
